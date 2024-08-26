@@ -1,0 +1,79 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+body {
+  background-color: #8cbeb2; /* The teal background color for the entire page */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0f1a20; /* Dark header text */
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #3b7687; /* Slightly darker background for header */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.editorWrapper,
+.PreviewerWrapper,
+.preview {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border: 2px solid #1f2f3c; /* Border around the editor and previewer */
+  background-color: #d4ebe6; /* Lighter teal for the editor and previewer background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for 3D effect */
+  overflow: hidden;
+}
+
+textarea {
+  width: 100%;
+  height: 300px;
+  border: none;
+  padding: 10px;
+  resize: none;
+  background-color: #f3f9f8; /* Lighter background for textarea */
+  color: #2e3a40; /* Text color for textarea */
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace; /* Monospace font for textarea */
+  outline: none; /* Remove default outline on focus */
+}
+
+#preview {
+  padding: 20px;
+  background-color: #f3f9f8; /* Same lighter background as textarea for consistency */
+  color: #2e3a40; /* Same text color for consistency */
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3 {
+  color: #0f1a20; /* Same dark color for headings */
+  margin-top: 0;
+}
+
+code {
+  background-color: #eee8aa; /* Highlight background for inline code */
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+pre {
+  background-color: #eee8aa; /* Same background for code blocks */
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto; /* Ensure horizontal scrolling for wide code blocks */
+}
